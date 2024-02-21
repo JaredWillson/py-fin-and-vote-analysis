@@ -16,4 +16,5 @@ The second script is stored in the PyPoll subdirectory. The results file is stor
 
 ## Code Sources ##
 
-The code for the loop in the vote counter was based upon a routine provided by instructor Kevin Lee in an extra session at the end of close demonstrating how to populate a dictionary from a csv file.
+The code for the loop in the vote counter that adds the vote counts into a dictionary was based upon a routine provided by instructor Kevin Lee in an extra session at the end of class
+demonstrating how to populate a dictionary from a csv file.
