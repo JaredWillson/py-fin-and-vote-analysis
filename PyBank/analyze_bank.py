@@ -14,7 +14,6 @@ with open(budget_file,'r') as budget:
     csv_header = next(csv_reader)
     line_count = 1
     prior_month = 0
-    greatest_month = ''
 
     # Now, let's create a 'for' loop to run through all the lines
     for row in csv_reader:
