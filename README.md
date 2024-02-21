@@ -2,7 +2,11 @@
 
 ## Contents: ##
 
-This repository contains two python scripts. The first script, analyze_bank.py, contains code
+This repository contains two python scripts. 
+
+https://github.com/JaredWillson/py-fin-and-vote-analysis/blob/main/Images/revenue-per-lead.png
+
+The first script, analyze_bank.py, contains code
 to  summarize corporate performance by month over multiple years. It counts the total number of records in the source file (ignoring header lines), determines the total change, determines
 Average change from previous month, and tracks and stores the best and worst month. Results are written to the screen and to a text file.
 
