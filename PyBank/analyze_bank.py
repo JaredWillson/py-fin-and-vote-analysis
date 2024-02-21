@@ -63,7 +63,7 @@ with open(budget_file,'r') as budget:
     # the end of our data) and subtract out two--one for incrementing past the end, one for the header
     print(f'Total Months: {line_count - 1}') #We are subtracting one since we have incremented our counter past the number of data lines
     print(f'Total:  ${totvalue}') #Prints the running total
-    print(f'Average Change: {average_change}')
+    print(f'Average Change: ${average_change}')
     print(f'Greatest Increase in Profits: {greatest_month} (${greatest_increase})')
     print(f'Greatest Decrease in Profits: {worst_month} (${greatest_decrease})')
     print()
@@ -84,6 +84,6 @@ with open(output_file, 'w') as results_file:
     results_file.write('--------------------------\n')
     results_file.write(f'Total Months: {line_count - 1}\n')
     results_file.write(f'Total:  ${totvalue}\n')
-    results_file.write(f'Average Change: {average_change}\n')
+    results_file.write(f'Average Change: ${average_change}\n')
     results_file.write(f'Greatest Increase in Profits: {greatest_month} (${greatest_increase})\n')
     results_file.write(f'Greatest Decrease in Profits: {worst_month} (${greatest_decrease})')
