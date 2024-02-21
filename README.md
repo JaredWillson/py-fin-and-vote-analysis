@@ -4,7 +4,7 @@
 
 This repository contains two python scripts. 
 
-https://github.com/JaredWillson/py-fin-and-vote-analysis/blob/main/Images/revenue-per-lead.png
+[![image] (Images/revenue-per-lead.png)]
 
 The first script, analyze_bank.py, contains code
 to  summarize corporate performance by month over multiple years. It counts the total number of records in the source file (ignoring header lines), determines the total change, determines
